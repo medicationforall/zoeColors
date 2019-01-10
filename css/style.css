@@ -1,0 +1,32 @@
+html,body{
+  height:100%;
+  padding:0px;
+  margin:0px;
+}
+
+main{
+  height:100%;
+  display:flex;
+    align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.color{
+  background-color:violet;
+  width:50%;
+  height:50%;
+  text-align:center;
+  position:relative;
+  transition:background-color 0.5s;
+}
+
+.title{
+  display:block;
+  font-size:30pt;
+  font-family:arial;
+}
+
+.title:first-letter{
+  text-transform: uppercase;
+}
